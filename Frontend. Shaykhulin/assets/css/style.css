@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+input {
+    margin-bottom: 25px;
+    padding: 0 15px;
+    width: 401px;
+    height: 48px;
+    font-family: 'Roboto', sans-serif;
+
+    
+    color: #333;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+
+    background: #FFFFFF;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+
+input::placeholder {
+    color: #D0C9D6;
+}
+
+input:hover {
+    border: 1px solid #854FC8;
+}
+
+input:focus {
+    border: 1px solid #854FC8;
+}
+
+
+.container {
+    margin: 31px auto;
+    padding: 40px;    
+    width: 401px;
+    height: 312px;
+
+    background: #F7F5F9;
+    border-radius: 12px;
+
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.09);
+}
+
+
+.header {
+    font-size: 24px;
+    line-height: 20px;
+    margin-bottom: 25px;
+    font-weight: 700;
+
+    color: #3B3D43;
+}
+
+
+.send_btn {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    background: #6979F8;
+    font-size: 17px;
+    line-height: 22px;
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid #fff;
+}

@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <title>Тестовое задание</title> 
+    <meta charset="UTF-8">
+    
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/form.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+    <div class="container">
+
+        <form action="https://60376bfd5435040017722533.mockapi.io/form" method="POST" autocomplete="off">
+            <header class="header">Задать вопрос</header>
+            <div class="name">
+                <input class="data__input" type="text" pattern="^[А-Яа-яЁё\s\-]+$" placeholder="Фамилия Имя Отчество *" name="name" required>
+            </div>
+            <div class="phone">
+                <input class="data__input" type="text" pattern="^[0-9\s\+\-]+$" placeholder="Телефон *" name="phone" required>
+            </div>
+            <div class="mail">
+                <input class="data__input" type="email" placeholder="Email" name="email">
+            </div>
+            <input class="send_btn" type="submit" value="Отправить запрос">
+        </form>
+
+    </div>
+
+
+</body>
+</html>
